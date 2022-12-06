@@ -1,5 +1,6 @@
 import React from 'react';
 import Navigation from './Navigation';
+import Footer from './Footer';
 
 const Layout = (props) => (
     <div>
@@ -8,4 +9,4 @@ const Layout = (props) => (
     </div>
 )
 
-export { Layout, Navigation };
+export { Layout, Navigation, Footer };

@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 const Navigation = () => (
-    <nav>
+    <nav className='fixed-top'>
         <ul>
             <li>
                 <Link to="/">Header/About Me</Link>

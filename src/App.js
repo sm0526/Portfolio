@@ -1,7 +1,6 @@
 import React from 'react';
-import { Header, Project, Footer } from './components';
-import './App.css';
-import { Navigation } from "./layout";
+import { Header, Project, Contact } from './components';
+import { Navigation, Footer } from "./layout";
 import {
   BrowserRouter as Router,
   Switch,
@@ -10,7 +9,7 @@ import {
 
 function App() {
   return (
-    <Router className="App">
+    <Router>
       <Navigation />
       <Switch>
         <Route exact path='/'>
@@ -20,9 +19,10 @@ function App() {
           <Project />
         </Route>
         <Route exact path='/contact'>
-          <Footer />
+          <Contact />
         </Route>
       </Switch>
+      <Footer />
     </Router>
   );
 }
