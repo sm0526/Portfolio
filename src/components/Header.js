@@ -1,10 +1,12 @@
 import React, { useState } from "react";
-import Navigation from "./Navigation";
 
-const Header = () => {
-    return <>this is a header</>
+import { Layout } from "../layout";
 
+const Header = () => (
+    <Layout>
+        this is a header
+    </Layout>
     //needed for the header: developer's name, and navigation 
-}
+);
 
 export default Header

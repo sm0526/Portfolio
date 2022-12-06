@@ -1,9 +1,11 @@
 import React from 'react';
+import Navigation from './Navigation';
 
-const Layout = () => (
+const Layout = (props) => (
     <div>
-        this is the layout
+        
+        {props.children}
     </div>
 )
 
-export { Layout };
+export { Layout, Navigation };
