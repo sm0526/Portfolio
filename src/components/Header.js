@@ -4,7 +4,8 @@ import { Layout } from "../layout";
 
 const Header = () => (
     <Layout>
-        this is a header
+        <img></img>
+        <h1>About Me</h1>
     </Layout>
     //needed for the header: developer's name, and navigation 
 );
