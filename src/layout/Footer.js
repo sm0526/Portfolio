@@ -1,7 +1,7 @@
 import React from 'react';
 
 const Footer = () => (
-    <footer className='fixed-bottom'>
+    <footer className=''>
         <h3>Find Me Here</h3>
         <ul>
             <li><a href="https://github.com/sm0526">GitHub</a></li>
