@@ -3,15 +3,15 @@ import { Link } from 'react-router-dom';
 
 const Navigation = () => (
     <nav className=''>
-        <ul>
-            <li>
-                <Link to="/">Header/About Me</Link>
+        <ul className='list-inline'>
+            <li className='list-inline-item'>
+                <Link to="/">About Me</Link>
             </li>
-            <li>
-                <Link to="/projects">Projects</Link>
+            <li className='list-inline-item'>
+                <Link to="/projects">My Projects</Link>
             </li>
-            <li>
-                <Link to="/contact">Footer/Contact</Link>
+            <li className='list-inline-item'>
+                <Link to="/contact">Contact</Link>
             </li>
         </ul>
     </nav>
