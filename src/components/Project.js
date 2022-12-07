@@ -36,7 +36,7 @@ const Project = () => (
                 <CardMedia
                     component="img"
                     height="140"
-                    image="./assets/eCommerceBackEnd.png"
+                    image="\assets\eCommerceBackEnd.png"
                     alt="project"
                 />
                 <CardContent>
