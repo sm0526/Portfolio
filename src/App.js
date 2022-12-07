@@ -2,7 +2,7 @@ import React from 'react';
 import { Header, Project, Contact } from './components';
 import { Navigation, Footer } from "./layout";
 import {
-  HashRouter as Router,
+  BrowserRouter as Router,
   Switch,
   Route
 } from 'react-router-dom';
